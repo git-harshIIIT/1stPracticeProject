@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(/images/background.png);
+    background-position: center;
+    
+}
+.container{
+    margin: 0px 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+    width: 350px;
+    margin-top: 140px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    background-color: #f67c92;
+    display: inline-block;
+    margin:20px 0px;
+}
+.cmn-btn{
+    margin : 35px 0px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 3px solid #f67c92;
+    cursor: pointer;
+}
+.line1{
+    width: 15px;
+    height: 15px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line2{
+    width: 80px;
+    height: 2px;
+    background-color: #f67c92;
+    display: inline-block;
+    
+}
+.line3{
+    width: 60px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+    
+}
+.line{
+    line-height: 6px;
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    background-color: #f67c92;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 15px ;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 200;
+    color: white;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 45px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+/* about */
+.about,.offer{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: right;
+}
+.about-left{
+    flex-basis: 50%;
+}
+.about-left img{
+    width: 100%;
+}
+.about-right{
+    flex-basis: 50%;
+    
+    
+}
+.about-text{
+    width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+
+}
+.about-text .line{
+    margin-top: 15px;
+}
+.about-text h2{
+    margin: 50px 0px 15px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3{
+    font-style: italic;
+    color: grey;
+}
+
+/* features */
+.features{
+    padding: 50px 0px;
+}
+.feature-row{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.features img{
+    width:150px;
+}
+.feature-col h3{
+    padding: 10px 0px;
+}
+.feature-btn{
+    margin: 80px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* courses */
+.courses{
+    padding: 100px 0px;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.course-left-col{
+    flex-basis: 50%;
+}
+.course-right-col{
+    flex-basis: 50%;
+}
+.course-right-col img{
+    width: 100%;
+}
+.course-text{
+    max-width: 350px;
+}
+
+/*----Offer----*/
+
+
+/* Sign Up  */
+form{
+    max-width: 350px;
+    margin: 30px 0px;   
+}
+form input{
+    width: 100%;
+    padding:12px 10px ;
+    margin-bottom: 5px;
+    outline: none;
+    border: 2px solid #f67c92;
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+    ;
+
+}
+.btn-box button{
+    flex-basis: 48%;
+}
+
+
+/* Footer  */
+#footer{
+    padding: 50px 0px 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin: 50px ;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title{
+    flex-basis: 25%;
+}
+.link-title h4{
+    color: #f67c92;
+    margin-bottom: 10px;
+}
+.link-title small{
+    color: #777;
+    font-size: 13px;
+}
+
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.copyright-text , .footer-logo{
+    flex-basis: 40%;
+}
+
+.social-icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 10px ;
+    cursor: pointer;
+}
+ 
